@@ -15,9 +15,7 @@
 ## Datasets
 
 <table>
-  <col>
-  <colgroup span="3"></colgroup>
-  <colgroup span="1"></colgroup>
+  
   <tr>
     <td rowspan="2"></td>
     <th colspan="3" scope="colgroup">Toxicity and Hate Speech</th>
