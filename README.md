@@ -21,12 +21,12 @@
 
 ## Methodology
 <ul>
-	<li> **Data Cartography** summarizes training dynamics for all samples as: </li>
+	<li> <b>Data Cartography</b> summarizes training dynamics for all samples as: </li>
 		<ul>
-  			<li> **Confidence**: Mean of probabilities for gold label across epochs.</li>
-  			<li> **Variability**: Standard Deviation of probabilities for gold label across epochs.</li>
+  			<li> <b>Confidence</b>: Mean of probabilities for gold label across epochs.</li>
+  			<li> <b>Variability</b>: Standard Deviation of probabilities for gold label across epochs.</li>
 		</ul>
-	<li> **Multi annotator models** leverages the diverse viewpoints brought by different annotators. They learn to <em>predict the labels each annotator would provide</em> for each instance in the dataset. These models get an instance id and an annotator id as input. </li>
+	<li> <b>Multi annotator models</b> leverages the diverse viewpoints brought by different annotators. They learn to <em>predict the labels each annotator would provide</em> for each instance in the dataset. These models get an instance id and an annotator id as input. </li>
 </ul>
 
 
@@ -35,3 +35,48 @@
 
 
 ## References
+
+
+## About the Team
+
+<table>
+<tr align="center">
+	
+<td>
+Abhishek Anand
+<p align="center"> MS in Computer Science </p>
+</td>
+
+
+<td>
+Anweasha Saha
+<p align="center"> MS in Computer Science </p>
+</td>
+
+
+<td>
+Prathyusha Naresh Kumar
+<p align="center"> MS in Computer Science </p>
+</td>
+
+
+<td>
+Negar Mokhberian
+<p align="center"> PhD in Computer Science </p>
+</td>
+
+
+<td>
+Ashwin Rao
+<p align="center"> PhD in Computer Science </p>
+</td>
+
+
+<td>
+Zihao He
+<p align="center"> PhD in Computer Science </p>
+</td>
+
+
+</tr>
+  </table>
