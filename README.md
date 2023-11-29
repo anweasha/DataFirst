@@ -1,19 +1,3 @@
-<head>
-	<style>
-        table,
-        td,
-        th {
-            border: 1px solid;
-            padding: 20px;
-        }
- 
-        table {
-            text-align: center;
-        }
-    </style>
-</head>
- 
- 
  <p align="center">
 	<h1 align="center"> Understanding the Relation between Noise and Bias <br />
 	in Annotated Datasets </h1>
