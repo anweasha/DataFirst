@@ -1,5 +1,6 @@
  <p align="center">
-	<h1 align="center">  Understanding the Relation between Noise and Bias in Annotated Datasets  </h1>
+	<h1 align="center"> Understanding the Relation between Noise and Bias </h1>
+	<h1 align="center"> in Annotated Datasets </h1>
 </p>
 
 ## Motivation
@@ -19,12 +20,14 @@
 
 
 ## Methodology
-- **Data Cartography** summarizes training dynamics for all samples as
 <ul>
-  <li> **Confidence**: Mean of probabilities for gold label across epochs.</li>
-  <li> **Variability**: Standard Deviation of probabilities for gold label across epochs.</li>
+	<li> **Data Cartography** summarizes training dynamics for all samples as: </li>
+		<ul>
+  			<li> **Confidence**: Mean of probabilities for gold label across epochs.</li>
+  			<li> **Variability**: Standard Deviation of probabilities for gold label across epochs.</li>
+		</ul>
+	<li> **Multi annotator models** leverages the diverse viewpoints brought by different annotators. They learn to <em>predict the labels each annotator would provide</em> for each instance in the dataset. These models get an instance id and an annotator id as input. </li>
 </ul>
-- **Multi annotator models** leverages the diverse viewpoints brought by different annotators. They learn to *predict the labels each annotator would provide* for each instance in the dataset. These models get an instance id and an annotator id as input. 
 
 
 
