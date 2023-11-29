@@ -1,6 +1,6 @@
  <p align="center">
-	<h1 align="center"> Understanding the Relation between Noise and Bias </h1>
-	<h1 align="center"> in Annotated Datasets </h1>
+	<h1 align="center"> Understanding the Relation between Noise and Bias <br />
+	in Annotated Datasets </h1>
 </p>
 
 ## Motivation
