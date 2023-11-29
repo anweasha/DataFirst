@@ -30,29 +30,29 @@
   <tr>
     <th scope="row"># Annotators</th>
     <td>184</td>
-    <td>7,912</td>
     <td>819</td>
+    <td>7,912</td>
     <td>183</td>
   </tr>
   <tr>
     <th scope="row"># Annotations per annotator</th>
     <td>18.8±25.6</td>
-    <td>17.1±3.8</td>
     <td>63.7±139</td>
+    <td>17.1±3.8</td>
     <td>   </td>
   </tr>
   <tr>
     <th scope="row"># Unique texts</th>
     <td>627</td>
-    <td>39,565</td>
     <td>10,440</td>
+    <td>39,565</td>
     <td>11,090</td>
   </tr>
   <tr>
     <th scope="row"># Annotations per text</th>
     <td>5.5±0.8</td>
-    <td>2.3±1.0</td>
     <td>5</td>
+    <td>2.3±1.0</td>
     <td>7.8±3.0</td>
   </tr>
 </table>
