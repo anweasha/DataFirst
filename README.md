@@ -1,3 +1,19 @@
+<head>
+	<style>
+        table,
+        td,
+        th {
+            border: 1px solid;
+            padding: 20px;
+        }
+ 
+        table {
+            text-align: center;
+        }
+    </style>
+</head>
+ 
+ 
  <p align="center">
 	<h1 align="center"> Understanding the Relation between Noise and Bias <br />
 	in Annotated Datasets </h1>
@@ -13,10 +29,52 @@
 
 
 ## Datasets
--
--
--
--
+
+<table>
+  <col>
+  <colgroup span="3"></colgroup>
+  <colgroup span="1"></colgroup>
+  <tr>
+    <td rowspan="2"></td>
+    <th colspan="3" scope="colgroup">Toxicity and Hate Speech</th>
+    <th colspan="1" scope="colgroup">Emotion</th>
+  </tr>
+  <tr>
+    <th scope="col">Attitudes <br /> [1]</th>
+    <th scope="col">Agree to Disagree <br /> [3]</th>
+    <th scope="col">Kennedy <br /> [4]</th>
+    <th scope="col">SemEval <br /> [2] </th>
+  </tr>
+  <tr>
+    <th scope="row"># Annotators</th>
+    <td>184</td>
+    <td>7,912</td>
+    <td>819</td>
+    <td>183</td>
+  </tr>
+  <tr>
+    <th scope="row"># Annotations per annotator</th>
+    <td>18.8±25.6</td>
+    <td>17.1±3.8</td>
+    <td>63.7±139</td>
+    <td>   </td>
+  </tr>
+  <tr>
+    <th scope="row"># Unique texts</th>
+    <td>627</td>
+    <td>39,565</td>
+    <td>10,440</td>
+    <td>11,090</td>
+  </tr>
+  <tr>
+    <th scope="row"># Annotations per text</th>
+    <td>5.5±0.8</td>
+    <td>2.3±1.0</td>
+    <td>5</td>
+    <td>7.8±3.0</td>
+  </tr>
+</table>
+
 
 
 ## Methodology
