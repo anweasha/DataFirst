@@ -28,32 +28,32 @@
     <th scope="col">SemEval <br /> [2] </th>
   </tr>
   <tr>
-    <th scope="row"># Annotators</th>
-    <td>184</td>
-    <td>819</td>
-    <td>7,912</td>
-    <td>183</td>
+    <th scope="row" style="text-align: left"># Annotators</th>
+    <td style="text-align: center">184</td>
+    <td style="text-align: center">819</td>
+    <td style="text-align: center">7,912</td>
+    <td style="text-align: center">183</td>
   </tr>
   <tr>
-    <th scope="row"># Annotations per annotator</th>
-    <td>18.8±25.6</td>
-    <td>63.7±139</td>
-    <td>17.1±3.8</td>
+    <th scope="row" style="text-align: left"># Annotations per annotator</th>
+    <td style="text-align: center">18.8±25.6</td>
+    <td style="text-align: center">63.7±139</td>
+    <td style="text-align: center">17.1±3.8</td>
     <td>   </td>
   </tr>
   <tr>
-    <th scope="row"># Unique texts</th>
-    <td>627</td>
-    <td>10,440</td>
-    <td>39,565</td>
-    <td>11,090</td>
+    <th scope="row" style="text-align: left"># Unique texts</th>
+    <td style="text-align: center">627</td>
+    <td style="text-align: center">10,440</td>
+    <td style="text-align: center">39,565</td>
+    <td style="text-align: center">11,090</td>
   </tr>
   <tr>
-    <th scope="row"># Annotations per text</th>
-    <td>5.5±0.8</td>
-    <td>5</td>
-    <td>2.3±1.0</td>
-    <td>7.8±3.0</td>
+    <th scope="row" style="text-align: left"># Annotations per text</th>
+    <td style="text-align: center">5.5±0.8</td>
+    <td style="text-align: center">5</td>
+    <td style="text-align: center">2.3±1.0</td>
+    <td style="text-align: center">7.8±3.0</td>
   </tr>
 </table>
 
