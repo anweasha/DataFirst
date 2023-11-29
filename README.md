@@ -36,6 +36,18 @@
 
 ## References
 
+[1] [Annotators with Attitudes: How Annotator Beliefs And Identities Bias Toxic Language Detection](https://aclanthology.org/2022.naacl-main.431) (Sap et al., NAACL 2022)
+
+[2] [SemEval-2018 Task 1: Affect in Tweets](https://aclanthology.org/S18-1001) (Mohammad et al., SemEval 2018)
+
+[3] [Agreeing to Disagree: Annotating Offensive Language Datasets with Annotators’ Disagreement](https://aclanthology.org/2021.emnlp-main.822) (Leonardelli et al., EMNLP 2021)
+
+[4] [Constructing interval variables via faceted Rasch measurement and multitask deep learning: a hate speech application](https://arxiv.org/abs/2009.10277) (Kennedy et al., 2020)
+
+[5] [Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics](https://aclanthology.org/2020.emnlp-main.746) (Swayamdipta et al., EMNLP 2020)
+
+[6] [Dealing with Disagreements: Looking Beyond the Majority Vote in Subjective Annotations](https://aclanthology.org/2022.tacl-1.6) (Mostafazadeh Davani et al., TACL 2022)
+
 
 ## About the Team
 
@@ -47,36 +59,30 @@ Abhishek Anand
 <p align="center"> MS in Computer Science </p>
 </td>
 
-
 <td>
 Anweasha Saha
 <p align="center"> MS in Computer Science </p>
 </td>
-
 
 <td>
 Prathyusha Naresh Kumar
 <p align="center"> MS in Computer Science </p>
 </td>
 
-
 <td>
 Negar Mokhberian
 <p align="center"> PhD in Computer Science </p>
 </td>
-
 
 <td>
 Ashwin Rao
 <p align="center"> PhD in Computer Science </p>
 </td>
 
-
 <td>
 Zihao He
 <p align="center"> PhD in Computer Science </p>
 </td>
-
 
 </tr>
   </table>
