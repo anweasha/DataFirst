@@ -77,7 +77,8 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 
 > **DATASET CARTOGRAPHY**
 <br><img src="https://github.com/anweasha/DataFirst/blob/main/plots_kennedy/conf_vs_var_color_correctness.png" width=600 height=400>
-<br>![agree to disagree](plots_agree_to_disagree/conf_vs_var_color_correctness.png = 400x100)
+<img width="600" height="350" src="https://github.com/anweasha/DataFirst/blob/main/plots_kennedy/conf_vs_var_color_correctness.png" />
+![agree to disagree](plots_agree_to_disagree/conf_vs_var_color_correctness.png){:height="36px" width="36px"}
 <br>![agree to disagree](plots_sbic/conf_vs_var_color_correctness.png)
 
 ### AGREE TO DISAGREE
