@@ -13,12 +13,11 @@
 
 
 ## Problem Statement
-In the evolving landscape of machine learning, the reliability and fairness of models hinge on the quality of annotated data. However, the presence of bias, particularly in subjective tasks, has become a critical concern. This is especially prominent in sensitive domains like hate speech recognition, where annotators, stemming from diverse backgrounds and perspectives, might introduce bias in their annotations
+In the evolving landscape of machine learning, the reliability and fairness of models hinge on the quality of annotated data. However, the presence of bias, particularly in subjective tasks, has become a critical concern. This is especially prominent in sensitive domains like hate speech recognition, where annotators, stemming from diverse backgrounds and perspectives, might introduce bias in their annotations.
 
 ## Datasets
 
-<table>
-  
+<table>  
   <tr>
     <td rowspan="2"></td>
     <th colspan="3" scope="colgroup">Toxicity and Hate Speech</th>
@@ -76,6 +75,44 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 
 ## Results
 
+> **DATASET CARTOGRAPHY**
+<br>![agree to disagree](plots_agree_to_disagree/conf_vs_var_color_correctness.png)
+<br>![agree to disagree](plots_kennedy/conf_vs_var_color_correctness.png)
+<br>![agree to disagree](plots_sbic/conf_vs_var_color_correctness.png)
+
+### AGREE TO DISAGREE
+>**MAJORITY VOTE LABEL**
+<br>![agr factor vs conf](plots_agree_to_disagree/agr_factor_vs_conf_hue.png)
+<br>
+>**MULTI ANNOTATOR**
+<br>![disagree vs conf](plots_agree_to_disagree/disagree_vs_conf.png)
+<br>![low conf mjr disagree vs conf](plots_agree_to_disagree/low_conf_mjr_disagree_vs_conf.png)
+<br>![group count](plots_agree_to_disagree/group_count.png)
+<br>
+
+### KENNEDY
+>**MAJORITY VOTE LABEL**
+<br>![agr factor vs conf](plots_kennedy/agr_factor_vs_conf_hue.png)
+<br>
+>**MULTI ANNOTATOR**
+<br>![disagree vs conf](plots_kennedy/disagree_vs_conf.png)
+<br>![low conf mjr disagree vs conf](plots_kennedy/low_conf_mjr_disagree_vs_conf.png)
+<br>![group count](plots_kennedy/group_count.png)
+<br>
+
+### SBIC
+>**MAJORITY VOTE LABEL**
+<br>![agr factor vs conf](plots_sbic/agr_factor_vs_conf_hue.png)
+<br>
+>**MULTI ANNOTATOR**
+<br>![disagree vs conf](plots_sbic/disagree_vs_conf.png)
+<br>![low conf mjr disagree vs conf](plots_sbic/low_conf_mjr_disagree_vs_conf.png)
+<br>![group count](plots_sbic/group_count.png)
+<br>
+
+## FINDINGS
+Focusing on the correlation between human agreement and the model’s confidence over the instances we observe:
+- We see significant correlation between agreement between annotators and model confidence in all the datasets, with the confidence decreasing with more disagreement between the annotators on the label.
 
 ## References
 
