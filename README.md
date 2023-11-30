@@ -81,17 +81,17 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 <br>![agree to disagree](plots_sbic/conf_vs_var_color_correctness.png)
 
 ### AGREE TO DISAGREE
->**MAJORITY VOTE LABEL**
+> **MAJORITY VOTE LABEL**
 <br>![agr factor vs conf](plots_agree_to_disagree/agr_factor_vs_conf_hue.png)
 <br>
->**MULTI ANNOTATOR**
+> **MULTI ANNOTATOR**
 <br>![disagree vs conf](plots_agree_to_disagree/disagree_vs_conf.png)
 <br>![low conf mjr disagree vs conf](plots_agree_to_disagree/low_conf_mjr_disagree_vs_conf.png)
 <br>![group count](plots_agree_to_disagree/group_count.png)
 <br>
 
 ### KENNEDY
->**MAJORITY VOTE LABEL**
+> **MAJORITY VOTE LABEL**
 <br>![agr factor vs conf](plots_kennedy/agr_factor_vs_conf_hue.png)
 <br>
 >**MULTI ANNOTATOR**
@@ -101,10 +101,10 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 <br>
 
 ### SBIC
->**MAJORITY VOTE LABEL**
+> **MAJORITY VOTE LABEL**
 <br>![agr factor vs conf](plots_sbic/agr_factor_vs_conf_hue.png)
 <br>
->**MULTI ANNOTATOR**
+> **MULTI ANNOTATOR**
 <br>![disagree vs conf](plots_sbic/disagree_vs_conf.png)
 <br>![low conf mjr disagree vs conf](plots_sbic/low_conf_mjr_disagree_vs_conf.png)
 <br>![group count](plots_sbic/group_count.png)
