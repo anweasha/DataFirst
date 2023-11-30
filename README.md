@@ -9,8 +9,8 @@
 - In this project, we'll explore if <em>perspectivist classification models</em> effectively utilize valuable insights from instances labeled as noisy by noise-detection techniques.
 
 <br>
-![](Annotations_image_emoji.png)
-
+<img src="https://github.com/anweasha/DataFirst/blob/main/Annotations_image_emoji.png" width=700>
+<br>
 
 ## Problem Statement
 In the evolving landscape of machine learning, the reliability and fairness of models hinge on the quality of annotated data. However, the presence of bias, particularly in subjective tasks, has become a critical concern. This is especially prominent in sensitive domains like hate speech recognition, where annotators, stemming from diverse backgrounds and perspectives, might introduce bias in their annotations
