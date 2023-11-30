@@ -8,9 +8,9 @@
 - **Misinterpretation of Bias as Noise**: Minority votes are often considered <em>outliers</em> by models. This causes models to perceive them as noise, leading to biased predictions favoring <em>majority vote</em>.
 - In this project, we'll explore if <em>perspectivist classification models</em> effectively utilize valuable insights from instances labeled as noisy by noise-detection techniques.
 
-<br>
-![](https://github.com/anweasha/DataFirst/blob/main/Annotations_image_emoji.png)
-<br>
+
+![annotations emoji image](Annotations_image_emoji.png)
+
 
 ## Problem Statement
 In the evolving landscape of machine learning, the reliability and fairness of models hinge on the quality of annotated data. However, the presence of bias, particularly in subjective tasks, has become a critical concern. This is especially prominent in sensitive domains like hate speech recognition, where annotators, stemming from diverse backgrounds and perspectives, might introduce bias in their annotations
