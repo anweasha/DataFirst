@@ -9,7 +9,7 @@
 - In this project, we'll explore if <em>perspectivist classification models</em> effectively utilize valuable insights from instances labeled as noisy by noise-detection techniques.
 
 <br>
-<img src="https://github.com/anweasha/DataFirst/blob/main/Annotations_image_emoji.png" width=700>
+![](https://github.com/anweasha/DataFirst/blob/main/Annotations_image_emoji.png)
 <br>
 
 ## Problem Statement
