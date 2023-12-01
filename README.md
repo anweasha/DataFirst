@@ -78,7 +78,7 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 > **DATASET CARTOGRAPHY**
 
 <br>![agree to disagree](plots_agree_to_disagree/conf_vs_var_color_correctness.png){: height="350px" width="600px"}
-<br>![agree to disagree](plots_sbic/conf_vs_var_color_correctness.png)
+<br>![agree to disagree](plots_sbic/conf_vs_var_color_correctness.png){: height="350px" width="600px"}
 
 ### AGREE TO DISAGREE
 > **MAJORITY VOTE LABEL**
