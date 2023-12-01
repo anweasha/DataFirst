@@ -78,23 +78,20 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 > **DATASET CARTOGRAPHY**
 
 <img src="plots_agree_to_disagree/conf_vs_var_color_correctness.png" alt="agree to disagree" height="400px" width="500px">
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_kennedy/conf_vs_var_color_correctness.png" alt="kennedy" height="400px" width="500px">
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_sbic/conf_vs_var_color_correctness.png" alt="sbic" height="400px" width="500px">
+<img src="plots_kennedy/conf_vs_var_color_correctness.png" alt="kennedy" height="400px" width="500px">
+<img src="plots_sbic/conf_vs_var_color_correctness.png" alt="sbic" height="400px" width="500px">
+<br>
 
 ### AGREE TO DISAGREE
 > **MAJORITY VOTE LABEL**
 
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="350px" width="500px">
-<!--<br>![agr factor vs conf](plots_agree_to_disagree/agr_factor_vs_conf_hue.png)-->
+<img src="plots_agree_to_disagree/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="350px" width="500px">
 
 > **MULTI ANNOTATOR**
 
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/disagree_vs_conf.png" alt="agree to disagree" height="350px" width="350px">
-<!--<br>![disagree vs conf](plots_agree_to_disagree/disagree_vs_conf.png)-->
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/low_conf_mjr_disagree_vs_conf.png" alt="agree to disagree" height="350px" width="350px">
-<!--<br>![low conf mjr disagree vs conf](plots_agree_to_disagree/low_conf_mjr_disagree_vs_conf.png)-->
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/group_count.png" alt="agree to disagree" height="350px" width="400px">
-<!--<br>![group count](plots_agree_to_disagree/group_count.png)-->
+<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/disagree_vs_conf.png" alt="disagree vs conf" height="350px" width="350px">
+<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/low_conf_mjr_disagree_vs_conf.png" alt="low conf mjr disagree vs conf" height="350px" width="350px">
+<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/group_count.png" alt="group count]" height="350px" width="400px">
 <br>
 
 ### KENNEDY
