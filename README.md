@@ -28,31 +28,31 @@ In the evolving landscape of machine learning, the reliability and fairness of m
     <th scope="col">Agree to Disagree [3]</th>
   </tr>
   <tr>
-    <td style="text-align: left"><b># Annotators</b></th>
+    <td style="text-align: left"><b># Annotators</b></td>
     <td style="text-align: center">307</td>
     <td style="text-align: center">7,912</td>
     <td style="text-align: center">819</td>
   </tr>
   <tr>
-    <td style="text-align: left"><b># Annotations per annotator</b></th>
+    <td style="text-align: left"><b># Annotations per annotator</b></td>
     <td style="text-align: center">479±829.6</td>
     <td style="text-align: center">17.1±3.8</td>
     <td style="text-align: center">63.7±139</td>
   </tr>
   <tr>
-    <td style="text-align: left"><b># Unique texts</b></th>
+    <td style="text-align: left"><b># Unique texts</b></td>
     <td style="text-align: center">45318</td>
     <td style="text-align: center">39,565</td>
     <td style="text-align: center">10,440</td>
   </tr>
   <tr>
-    <td style="text-align: left"><b># Annotations per text</b></th>
+    <td style="text-align: left"><b># Annotations per text</b></td>
     <td style="text-align: center">3.2±1.2</td>
     <td style="text-align: center">2.3±1.0</td>
     <td style="text-align: center">5</td>
   </tr>
   <tr>
-    <td style="text-align: left"><b># Labels</b></th>
+    <td style="text-align: left"><b># Labels</b></td>
     <td style="text-align: center">2</td>
     <td style="text-align: center">3</td>
     <td style="text-align: center">2</td>
@@ -70,7 +70,7 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 		</ul>
 	<li> <b>Multi annotator models</b> leverages the diverse viewpoints brought by different annotators. They learn to <em>predict the labels each annotator would provide</em> for each instance in the dataset. These models get an instance id and an annotator id as input. </li>
 </ul>
-<br>
+
 
 ### MODEL AND PERFORMANCE
 
@@ -80,11 +80,11 @@ Trained 2 models for each dataset
 
 <table>  
   <tr>
-    <td style="text-align: left"><b>Majority Label Model</b></th>
-    <td style="text-align: left"><b>Multi Annotator Model</b></th>
+    <td style="text-align: left"><b>Majority Label Model</b></td>
+    <td style="text-align: left"><b>Multi Annotator Model</b></td>
   </tr>
   <tr>
-    <td style="text-align: left"> <b>Model</b> - Roberta-Base <br /> <b>Epochs</b> - 5 <br /> <b>Learning Rate</b> - 5e-5 <br /> <b>Batch Size</b> - 32 <br /> <b>Max Sentence Length</b> - 256 </th>
+    <td style="text-align: left"> <b>Model</b> - Roberta-Base <br /> <b>Epochs</b> - 5 <br /> <b>Learning Rate</b> - 5e-5 <br /> <b>Batch Size</b> - 32 <br /> <b>Max Sentence Length</b> - 256 </td>
     <td style="text-align: left"> <b>Model</b> - DISCO <br /> <b>Epochs</b> - 5 </td>
   </tr>
 </table>
@@ -93,22 +93,22 @@ Trained 2 models for each dataset
 
 <table>  
   <tr>
-    <td style="text-align: left"><b>Dataset</b></th>
-    <td style="text-align: left"><b>F1 Score (majority)</b></th>
-    <td style="text-align: left"><b>F1 Score (multi-annotator)</b>b</th>
+    <td style="text-align: left"><b>Dataset</b></td>
+    <td style="text-align: left"><b>F1 Score (majority)</b></td>
+    <td style="text-align: left"><b>F1 Score (multi-annotator)</b></td>
   </tr>
   <tr>
-    <td style="text-align: left">Agree to Disagree</th>
+    <td style="text-align: left">Agree to Disagree</td>
     <td style="text-align: center">0.81</td>
     <td style="text-align: center"> </td>
   </tr>
   <tr>
-    <td style="text-align: left">Kennedy</th>
+    <td style="text-align: left">Kennedy</td>
     <td style="text-align: center">0.68</td>
     <td style="text-align: center"> </td>
   </tr>
   <tr>
-    <td style="text-align: left">SBIC</th>
+    <td style="text-align: left">SBIC</td>
     <td style="text-align: center">0.72</td>
     <td style="text-align: center"> </td>
   </tr>
@@ -165,23 +165,23 @@ Trained 2 models for each dataset
 
 <table>  
   <tr>
-    <td style="text-align: left"><b>Text</b></th>
-    <td style="text-align: left"><b>Annotation</b></th>
+    <td style="text-align: left"><b>Text</b></td>
+    <td style="text-align: left"><b>Annotation</b></td>
   </tr>
   <tr>
-    <td style="text-align: left">I thought you were going to win this in a landslide</th>
+    <td style="text-align: left">I thought you were going to win this in a landslide</td>
     <td style="text-align: left">Offensive</td>
   </tr>
   <tr>
-    <td style="text-align: left">crossing my fingers for you from Germany. Even though I am not an American.</th>
+    <td style="text-align: left">crossing my fingers for you from Germany. Even though I am not an American.</td>
     <td style="text-align: left">Offensive</td>
   </tr>
   <tr>
-    <td style="text-align: left">boy F**K you</th>
+    <td style="text-align: left">boy F**K you</td>
     <td style="text-align: left">Not Offensive</td>
   </tr>
   <tr>
-    <td style="text-align: left">Fragility at its finest</th>
+    <td style="text-align: left">Fragility at its finest</td>
     <td style="text-align: left">Offensive</td>
   </tr>
 </table>
