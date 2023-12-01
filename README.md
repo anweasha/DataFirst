@@ -77,14 +77,18 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 
 > **DATASET CARTOGRAPHY**
 
-<br>![agree to disagree](plots_agree_to_disagree/conf_vs_var_color_correctness.png){: height="350px" width="600px"}
-<br>![agree to disagree](plots_sbic/conf_vs_var_color_correctness.png){: height="350px" width="600px"}
+<br><img src="plots_agree_to_disagree/conf_vs_var_color_correctness.png" alt="agree to disagree" height="350px" width="600px">
+<!--<br>![agree to disagree](plots_agree_to_disagree/conf_vs_var_color_correctness.png){: height="350px" width="600px"}-->
+<br><img src="plots_sbic/conf_vs_var_color_correctness.png" alt="agree to disagree" height="350px" width="600px">
+<!--<br>![agree to disagree](plots_sbic/conf_vs_var_color_correctness.png)-->
 
 ### AGREE TO DISAGREE
 > **MAJORITY VOTE LABEL**
+
 <br>![agr factor vs conf](plots_agree_to_disagree/agr_factor_vs_conf_hue.png)
 
 > **MULTI ANNOTATOR**
+
 <br>![disagree vs conf](plots_agree_to_disagree/disagree_vs_conf.png)
 <br>![low conf mjr disagree vs conf](plots_agree_to_disagree/low_conf_mjr_disagree_vs_conf.png)
 <br>![group count](plots_agree_to_disagree/group_count.png)
@@ -92,9 +96,11 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 
 ### KENNEDY
 > **MAJORITY VOTE LABEL**
+
 <br>![agr factor vs conf](plots_kennedy/agr_factor_vs_conf_hue.png)
  
 > **MULTI ANNOTATOR**
+
 <br>![disagree vs conf](plots_kennedy/disagree_vs_conf.png)
 <br>![low conf mjr disagree vs conf](plots_kennedy/low_conf_mjr_disagree_vs_conf.png)
 <br>![group count](plots_kennedy/group_count.png)
@@ -102,15 +108,18 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 
 ### SBIC
 > **MAJORITY VOTE LABEL**
+
 <br>![agr factor vs conf](plots_sbic/agr_factor_vs_conf_hue.png)
 
 > **MULTI ANNOTATOR**
+
 <br>![disagree vs conf](plots_sbic/disagree_vs_conf.png)
 <br>![low conf mjr disagree vs conf](plots_sbic/low_conf_mjr_disagree_vs_conf.png)
 <br>![group count](plots_sbic/group_count.png)
 <br>
 
 ## FINDINGS
+
 Focusing on the correlation between human agreement and the model’s confidence over the instances we observe:
 - We see significant correlation between agreement between annotators and model confidence in all the datasets, with the confidence decreasing with more disagreement between the annotators on the label.
 
