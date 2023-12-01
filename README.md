@@ -77,15 +77,14 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 
 > **DATASET CARTOGRAPHY**
 
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/conf_vs_var_color_correctness.png" alt="agree to disagree" height="350px" width="600px">
-<!--<br>![agree to disagree](plots_agree_to_disagree/conf_vs_var_color_correctness.png){: height="350px" width="600px"}-->
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_sbic/conf_vs_var_color_correctness.png" alt="agree to disagree" height="350px" width="600px">
-<!--<br>![agree to disagree](plots_sbic/conf_vs_var_color_correctness.png)-->
+<img src="plots_agree_to_disagree/conf_vs_var_color_correctness.png" alt="agree to disagree" height="400px" width="500px">
+<br>&nbsp;&nbsp;&nbsp;<img src="plots_kennedy/conf_vs_var_color_correctness.png" alt="kennedy" height="400px" width="500px">
+<br>&nbsp;&nbsp;&nbsp;<img src="plots_sbic/conf_vs_var_color_correctness.png" alt="sbic" height="400px" width="500px">
 
 ### AGREE TO DISAGREE
 > **MAJORITY VOTE LABEL**
 
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/agr_factor_vs_conf_hue.png" alt="agree to disagree" height="350px" width="500px">
+<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="350px" width="500px">
 <!--<br>![agr factor vs conf](plots_agree_to_disagree/agr_factor_vs_conf_hue.png)-->
 
 > **MULTI ANNOTATOR**
@@ -101,8 +100,7 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 ### KENNEDY
 > **MAJORITY VOTE LABEL**
 
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_kennedy/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="600px" width="800px">
-<!--<br>![agr factor vs conf](plots_kennedy/agr_factor_vs_conf_hue.png)-->
+<br>&nbsp;&nbsp;&nbsp;<img src="plots_kennedy/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="350px" width="500px">
  
 > **MULTI ANNOTATOR**
 
@@ -117,7 +115,7 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 ### SBIC
 > **MAJORITY VOTE LABEL**
 
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_sbic/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="350px" width="350px">
+<br>&nbsp;&nbsp;&nbsp;<img src="plots_sbic/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="350px" width="500px">
 <!--<br>![agr factor vs conf](plots_sbic/agr_factor_vs_conf_hue.png)-->
 
 > **MULTI ANNOTATOR**
