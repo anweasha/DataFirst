@@ -84,8 +84,8 @@ Trained 2 models for each dataset
     <td style="text-align: left"><b>Multi Annotator Model</b></td>
   </tr>
   <tr>
-    <td style="text-align: left"> <b>Model</b> - Roberta-Base <br /> <b>Epochs</b> - 5 <br /> <b>Learning Rate</b> - 5e-5 <br /> <b>Batch Size</b> - 32 <br /> <b>Max Sentence Length</b> - 256 </td>
-    <td style="text-align: left"> <b>Model</b> - DISCO <br /> <b>Epochs</b> - 5 </td>
+    <td style="text-align: left"> <b>Model</b> - Roberta-Base [6] <br /> <b>Epochs</b> - 5 <br /> <b>Learning Rate</b> - 5e-5 <br /> <b>Batch Size</b> - 32 </td>
+    <td style="text-align: left"> <b>Model</b> - DISCO [7] <br /> <b>Epochs</b> - 5 <br /> <b>Learning Rate</b> - 2e-3 <br /> <b>Batch Size</b> - 200 </td>
   </tr>
 </table>
 
@@ -99,18 +99,18 @@ Trained 2 models for each dataset
   </tr>
   <tr>
     <td style="text-align: left">Agree to Disagree</td>
-    <td style="text-align: center">0.81</td>
-    <td style="text-align: center"> </td>
+    <td style="text-align: center">0.78</td>
+    <td style="text-align: center">0.78</td>
   </tr>
   <tr>
     <td style="text-align: left">Kennedy</td>
     <td style="text-align: center">0.68</td>
-    <td style="text-align: center"> </td>
+    <td style="text-align: center">0.75</td>
   </tr>
   <tr>
     <td style="text-align: left">SBIC</td>
-    <td style="text-align: center">0.72</td>
-    <td style="text-align: center"> </td>
+    <td style="text-align: center">0.80</td>
+    <td style="text-align: center">0.78</td>
   </tr>
 </table>
 
@@ -119,9 +119,8 @@ Trained 2 models for each dataset
 
 > **DATASET CARTOGRAPHY**
 
-<img src="plots_agree_to_disagree/conf_vs_var_color_correctness.png" alt="agree to disagree" height="400px" width="500px">
-<img src="plots_kennedy/conf_vs_var_color_correctness.png" alt="kennedy" height="400px" width="500px">
-<img src="plots_sbic/conf_vs_var_color_correctness.png" alt="sbic" height="400px" width="500px">
+<img src="plots_agree_to_disagree/conf_vs_var_color_correctness.png" alt="agree to disagree" height="300px" width="400px">  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="plots_kennedy/conf_vs_var_color_correctness.png" alt="kennedy" height="300px" width="400px">
+<img src="plots_sbic/conf_vs_var_color_correctness.png" alt="sbic" height="300px" width="400px">
 
 ### AGREE TO DISAGREE
 > **MAJORITY VOTE LABEL**
@@ -163,6 +162,7 @@ Trained 2 models for each dataset
 
 <b>High Confidence in Majority model and Low Confidence in Multi-Annotator model</b>
 
+> **Mislabeled annotations:**
 <table>  
   <tr>
     <td style="text-align: left"><b>Text</b></td>
@@ -189,8 +189,15 @@ Trained 2 models for each dataset
 
 ## Findings
 
-Focusing on the correlation between human agreement and the model’s confidence over the instances we observe:
-- We see significant correlation between agreement between annotators and model confidence in all the datasets, with the confidence decreasing with more disagreement between the annotators on the label.
+> **Single Ground Truth Model**
+- There is <b>correlation between human disagreement on instances and model’s uncertainty/confidence</b> for classifying that instance.
+- For instances that there is <b>more disagreement among human labelers there is also low confidence</b> from the single-GT model.
+
+> **Multi-Annotator Model**
+- Like single gold label model, we see <b>significant correlation between agreement between annotators and model confidence</b> in all the datasets, with the <b>confidence decreasing with more disagreement</b> between the annotators.
+- For <b>low confidence samples in single ground truth model</b>, we observe multi-annotator model having <b>high confidence for labels which disagree with majority</b>, hence learning valuable information from samples that majority vote aggregation discards.
+- We see <b>high number of annotations per annotator is necessary</b> to model different perspectives effectively.
+
 
 
 ## References
@@ -205,9 +212,13 @@ Focusing on the correlation between human agreement and the model’s confidence
 
 [5] [Dataset Cartography: Mapping and Diagnosing Datasets with Training Dynamics](https://aclanthology.org/2020.emnlp-main.746) (Swayamdipta et al., EMNLP 2020)
 
-[6] [Dealing with Disagreements: Looking Beyond the Majority Vote in Subjective Annotations](https://aclanthology.org/2022.tacl-1.6) (Mostafazadeh Davani et al., TACL 2022)
+[6] [RoBERTa: A Robustly Optimized BERT Pretraining Approach](https://arxiv.org/pdf/1907.11692.pdf) (Yinhan Liu et al., 2019)
 
-[7] [Annotators with Attitudes: How Annotator Beliefs And Identities Bias Toxic Language Detection](https://aclanthology.org/2022.naacl-main.431) (Sap et al., NAACL 2022)
+[7] [Disagreement Matters: Preserving Label Diversity by Jointly Modeling Item and Annotator Label Distributions with DisCo](https://aclanthology.org/2023.findings-acl.287) (Weerasooriya et al., Findings 2023)
+
+[8] [Annotators with Attitudes: How Annotator Beliefs And Identities Bias Toxic Language Detection](https://aclanthology.org/2022.naacl-main.431) (Sap et al., NAACL 2022)
+
+[9] [Dealing with Disagreements: Looking Beyond the Majority Vote in Subjective Annotations](https://aclanthology.org/2022.tacl-1.6) (Mostafazadeh Davani et al., TACL 2022)
 
 
 ## About the Team
