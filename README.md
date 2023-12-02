@@ -62,15 +62,8 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 
 
 ## Methodology
-<ul>
-	<li> <b>Data Cartography</b> summarizes training dynamics for all samples as: </li>
-		<ul>
-  			<li> <b>Confidence</b>: Mean of probabilities for gold label across epochs.</li>
-  			<li> <b>Variability</b>: Standard Deviation of probabilities for gold label across epochs.</li>
-		</ul>
-	<li> <b>Multi annotator models</b> leverages the diverse viewpoints brought by different annotators. They learn to <em>predict the labels each annotator would provide</em> for each instance in the dataset. These models get an instance id and an annotator id as input. </li>
-</ul>
 
+### Two Regimes of Classification
 
 ### MODEL AND PERFORMANCE
 
@@ -114,27 +107,61 @@ Trained 2 models for each dataset
   </tr>
 </table>
 
+### Uncertainty in Machine Learning Predictions
+
+<ul>
+	<li> <b>Data Cartography</b> summarizes training dynamics for all samples as: </li>
+		<ul>
+  			<li> <b>Confidence</b>: Mean of probabilities for gold label across epochs.</li>
+  			<li> <b>Variability</b>: Standard Deviation of probabilities for gold label across epochs.</li>
+		</ul>
+	<li> <b>Multi annotator models</b> leverages the diverse viewpoints brought by different annotators. They learn to <em>predict the labels each annotator would provide</em> for each instance in the dataset. These models get an instance id and an annotator id as input. </li>
+</ul>
 
 ## Results
 
-> **DATASET CARTOGRAPHY**
+### DATASET CARTOGRAPHY
 
-<img src="plots_agree_to_disagree/conf_vs_var_color_correctness.png" alt="agree to disagree" height="300px" width="400px">  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <img src="plots_kennedy/conf_vs_var_color_correctness.png" alt="kennedy" height="300px" width="400px">
-<img src="plots_sbic/conf_vs_var_color_correctness.png" alt="sbic" height="300px" width="400px">
+<img src="plots_agree_to_disagree/conf_vs_var_color_correctness.png" alt="agree to disagree" height="300px" width="400px">&emsp;&emsp;&emsp;&emsp;<img src="plots_kennedy/conf_vs_var_color_correctness.png" alt="kennedy" height="300px" width="400px">\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Agree to Disagree</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Kennedy</b>\
+<img src="plots_sbic/conf_vs_var_color_correctness.png" alt="sbic" height="300px" width="400px">\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>SBIC</b>
 
-### AGREE TO DISAGREE
-> **MAJORITY VOTE LABEL**
+### SINGLE GROUND TRUTH MODEL
+
+> **AGREE TO DISAGREE**
 
 <img src="plots_agree_to_disagree/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="350px" width="500px">
 
-> **MULTI ANNOTATOR**
+> **KENNEDY**
 
+<img src="plots_kennedy/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="350px" width="500px">
+
+> **SBIC**
+
+<img src="plots_sbic/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="350px" width="500px">
+
+### MULTI ANNOTATOR MODEL
+
+> **AGREE TO DISAGREE**
+
+<img src="plots_agree_to_disagree/low_conf_mjr_disagree_vs_conf.png" alt="low conf mjr disagree vs conf" height="300px" width="400px">&emsp;&emsp;&emsp;&emsp;<img src="plots_agree_to_disagree/group_count.png" alt="group count]" height="300px" width="400px">
+
+<!--
 <img src="plots_agree_to_disagree/disagree_vs_conf.png" alt="disagree vs conf" height="350px" width="350px">
 <br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/low_conf_mjr_disagree_vs_conf.png" alt="low conf mjr disagree vs conf" height="350px" width="350px">
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/group_count.png" alt="group count]" height="350px" width="400px">
+<br>&nbsp;&nbsp;&nbsp;<img src="plots_agree_to_disagree/group_count.png" alt="group count]" height="350px" width="400px">-->
+
+> **SBIC**
+
+<img src="plots_sbic/low_conf_mjr_disagree_vs_conf.png" alt="low conf mjr disagree vs conf" height="300px" width="400px">&emsp;&emsp;&emsp;&emsp;<img src="plots_sbic/group_count.png" alt="group count" height="300px" width="400px">
 
 
-### KENNEDY
+> **KENNEDY**
+
+<img src="plots_kennedy/low_conf_mjr_disagree_vs_conf.png" alt="low conf mjr disagree vs conf" height="300px" width="400px">&emsp;&emsp;&emsp;&emsp;<img src="plots_kennedy/group_count.png" alt="group count" height="300px" width="400 px">
+
+<!--### KENNEDY
 > **MAJORITY VOTE LABEL**
 
 <img src="plots_kennedy/agr_factor_vs_conf_hue.png" alt="agr factor vs conf" height="350px" width="500px">
@@ -155,7 +182,7 @@ Trained 2 models for each dataset
 
 <img src="plots_sbic/disagree_vs_conf.png" alt="disagree vs conf" height="350px" width="350px">
 <br>&nbsp;&nbsp;&nbsp;<img src="plots_sbic/low_conf_mjr_disagree_vs_conf.png" alt="low conf mjr disagree vs conf" height="350px" width="350px">
-<br>&nbsp;&nbsp;&nbsp;<img src="plots_sbic/group_count.png" alt="group count" height="350px" width="400px">
+<br>&nbsp;&nbsp;&nbsp;<img src="plots_sbic/group_count.png" alt="group count" height="350px" width="400px">-->
 
 
 ## Analysis
@@ -190,10 +217,12 @@ Trained 2 models for each dataset
 ## Findings
 
 > **Single Ground Truth Model**
+
 - There is <b>correlation between human disagreement on instances and model’s uncertainty/confidence</b> for classifying that instance.
 - For instances that there is <b>more disagreement among human labelers there is also low confidence</b> from the single-GT model.
 
 > **Multi-Annotator Model**
+
 - Like single gold label model, we see <b>significant correlation between agreement between annotators and model confidence</b> in all the datasets, with the <b>confidence decreasing with more disagreement</b> between the annotators.
 - For <b>low confidence samples in single ground truth model</b>, we observe multi-annotator model having <b>high confidence for labels which disagree with majority</b>, hence learning valuable information from samples that majority vote aggregation discards.
 - We see <b>high number of annotations per annotator is necessary</b> to model different perspectives effectively.
