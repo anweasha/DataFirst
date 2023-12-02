@@ -264,17 +264,32 @@ Trained 2 models for each dataset
 <tr align="center">
 	
 <td>
+	
 Abhishek Anand
+
+<p align="center">
+<img src = "team/abhishek.jpeg"  height="120" alt="Abhishek Anand">
+</p>
 <p align="center"> MS in Computer Science </p>
 </td>
 
 <td>
+	
 Anweasha Saha
+
+<p align="center">
+<img src = "team/anweasha.jpeg"  height="120" alt="Anweasha Saha">
+</p>
 <p align="center"> MS in Computer Science </p>
 </td>
 
 <td>
+	
 Prathyusha Naresh Kumar
+
+<p align="center">
+<img src = "team/prathyusha.jpeg"  height="120" alt="Prathyusha Naresh Kumar">
+</p>
 <p align="center"> MS in Computer Science </p>
 </td>
 
