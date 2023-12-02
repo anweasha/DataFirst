@@ -65,6 +65,8 @@ In the evolving landscape of machine learning, the reliability and fairness of m
 
 ### Two Regimes of Classification
 
+<img src="model 1.png" alt="model 1" height="500px" width="450px">&emsp;&emsp;<img src="model 2.png" alt="model 1" height="500px" width="450px">
+
 ### MODEL AND PERFORMANCE
 
 > **Model**
@@ -115,17 +117,23 @@ Trained 2 models for each dataset
   			<li> <b>Confidence</b>: Mean of probabilities for gold label across epochs.</li>
   			<li> <b>Variability</b>: Standard Deviation of probabilities for gold label across epochs.</li>
 		</ul>
-	<li> <b>Multi annotator models</b> leverages the diverse viewpoints brought by different annotators. They learn to <em>predict the labels each annotator would provide</em> for each instance in the dataset. These models get an instance id and an annotator id as input. </li>
 </ul>
 
 ## Results
 
 ### DATASET CARTOGRAPHY
 
-<img src="plots_agree_to_disagree/conf_vs_var_color_correctness.png" alt="agree to disagree" height="300px" width="400px">&emsp;&emsp;&emsp;&emsp;<img src="plots_kennedy/conf_vs_var_color_correctness.png" alt="kennedy" height="300px" width="400px">\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Agree to Disagree</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>Kennedy</b>\
-<img src="plots_sbic/conf_vs_var_color_correctness.png" alt="sbic" height="300px" width="400px">\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<b>SBIC</b>
+> **AGREE TO DISAGREE**
+
+<img src="plots_agree_to_disagree/conf_vs_var_color_correctness.png" alt="agree to disagree" height="350px" width="450px"> 
+
+> **KENNEDY**
+
+<img src="plots_kennedy/conf_vs_var_color_correctness.png" alt="kennedy" height="350px" width="450px">
+
+> **SBIC**
+
+<img src="plots_sbic/conf_vs_var_color_correctness.png" alt="sbic" height="350px" width="450px">
 
 ### SINGLE GROUND TRUTH MODEL
 
@@ -271,17 +279,32 @@ Prathyusha Naresh Kumar
 </td>
 
 <td>
+	
 Negar Mokhberian
+	
+<p align="center">
+<img src = "team/negar.png"  height="120" alt="Negar Mokhberian">
+</p>
 <p align="center"> PhD in Computer Science </p>
 </td>
 
 <td>
+	
 Ashwin Rao
+
+<p align="center">
+<img src = "team/ashwin.png"  height="120" alt="Ashwin Rao">
+</p>
 <p align="center"> PhD in Computer Science </p>
 </td>
 
 <td>
+	
 Zihao He
+
+<p align="center">
+<img src = "team/zihao.png"  height="120" alt="Zihao He">
+</p>
 <p align="center"> PhD in Computer Science </p>
 </td>
 
